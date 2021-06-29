@@ -1,0 +1,79 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: darkgray;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-inner {
+    border: 1px solid cornflowerblue;
+    padding: 15px;
+}
+
+.todo-title {
+    color: chocolate;
+}
+
+.todo-item {
+    margin: 10px 0;
+    color: brown
+}
+
+.delete-btn,
+.edit-btn,
+.repair-btn {
+    color: #fff;
+    background: black;
+    cursor: pointer;
+}
+
+.todo-input {
+    display: flex;
+}
+
+.add-btn{
+    padding: 0 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: tomato;
+    color: #fff;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 10px 15px  ;
+}
+
+.pending-list {
+    opacity: .5;
+    padding-top: 10px;
+    border-top: 1px solid tomato;
+}
